@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* shearing style section */
+.font-inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.btn{
+    background-color: #469165;
+    color: #FFFFFF;
+    padding: 12px 16px;
+    border-radius: 4px;
+    border-style: none;
+    font-size: 16px;
+    font-weight: 600px;
+}
+
+
+
+/* main style section */
+header nav{
+    max-width: 1600px;
+    background-color: #FFFFFF;
+    padding: 16px 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav .menu-items{
+    display: flex;
+    list-style: none;
+    width: 365px;
+    justify-content: space-between;
+}
+
+header nav .menu-items a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 16px;
+    line-height: 152%;
+    font-weight: 500px;
+}
