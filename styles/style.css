@@ -184,11 +184,12 @@ header nav .menu-items a{
     margin: 102px 0px;
 }
 
-.brain-container .brain-info h4{
+.brain-container .brain-info h4 a{
     font-size: 16px;
     font-weight: 500px;
     line-height: 20px;
     color: #469165;
+    text-decoration: none;
 }
 
 .brain-container .brain-info h2{
