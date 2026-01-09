@@ -129,6 +129,7 @@ header nav .menu-items a{
 .note-section{
     max-width: 1600px;
     padding: 0px 120px;
+    color: #FFFFFF;
 }
 
 .note-section .note-heading h2{
@@ -155,4 +156,51 @@ header nav .menu-items a{
     font-size: 24px;
     font-weight: 600px;
     margin-bottom: 16px;
+}
+
+.brain-container{
+    max-width: 1600px;
+    padding: 120px;
+    background-color: #FFFFFF;
+    display: flex;
+    gap: 60px;
+}
+
+.brain-container .brain-info{
+    margin: 102px 0px;
+}
+
+.brain-container .brain-info h4{
+    font-size: 16px;
+    font-weight: 500px;
+    line-height: 20px;
+    color: #469165;
+}
+
+.brain-container .brain-info h2{
+    font-size: 48px;
+    color: #001931;
+    margin: 16px 0px;
+}
+
+.brain-container .brain-info ul{
+    list-style: none;
+    margin-top: 40px;
+
+}
+
+.brain-container .brain-info ul li{
+    font-size: 16px;
+    font-weight: 500px;
+    line-height: 20px;
+    color: #001931;
+    margin-bottom: 16px;
+}
+
+.brain-info ul li::before{
+    content: url(../assets/CheckCircle.png);
+    align-items: center;
+    position: relative;
+    top: 5px;
+    margin-right: 6px;
 }
