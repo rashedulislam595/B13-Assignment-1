@@ -21,6 +21,31 @@
     cursor: pointer;
 }
 
+.paragraph{
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 20px;
+    color: #627382;
+}
+
+.circle{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #F95555;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 45px 101px 16px;
+
+}
+
+.card{
+    padding: 24px;
+    text-align: center;
+    border-radius: 8px;
+    width: 322px;
+}
 
 
 /* main style section */
@@ -100,3 +125,34 @@ header nav .menu-items a{
     cursor: pointer;
 }
 
+
+.note-section{
+    max-width: 1600px;
+    padding: 0px 120px;
+}
+
+.note-section .note-heading h2{
+    color: #001931;
+    font-size: 48px;
+    padding-bottom: 16px;
+    height: 116px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+.note-section .note-heading p{
+    text-align: center;
+}
+
+.note-section .card-container{
+    display: flex;
+    gap: 24px;
+    margin-top: 44px;
+}
+
+.card-container .card h3{
+    color:#001931;
+    font-size: 24px;
+    font-weight: 600px;
+    margin-bottom: 16px;
+}
