@@ -21,6 +21,14 @@
     cursor: pointer;
 }
 
+.btn:hover{
+    /* background-color: rgba(32, 32, 236, 0.719); */
+    background: none;
+    color:black;
+    border: 1px solid #30B868;
+    border-radius: 4px;
+}
+
 .paragraph{
     font-size: 16px;
     font-weight: 400px;
@@ -124,6 +132,11 @@ header nav .menu-items a{
     border: 1px solid #FFFFFF;
     border-radius: 4px;
     cursor: pointer;
+}
+
+.benner-section .button .work-btn:hover{
+    background-color: #469165;
+    border: none;
 }
 
 
@@ -249,3 +262,58 @@ header nav .menu-items a{
     margin-top: 22px;
 
 }
+
+footer{
+    max-width: 1600px;
+    padding: 120px 120px 30px;
+    background-color: #001931;
+    
+}
+
+footer .footer-container{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+
+footer .footer-container .social-info h3{
+    font-size: 20px;
+    font-weight: 500px;
+    line-height: 28px;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+
+.footer-container .social-info .icons a img{
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+    
+}
+
+.footer-container .social-info .icons{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.icon-circle{
+    width: 30px;
+    height: 30px;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+}
+
+footer p{
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 24px;
+}
+
+footer hr{
+    border-color: #627382;
+}
+
