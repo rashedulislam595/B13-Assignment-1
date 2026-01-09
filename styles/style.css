@@ -45,6 +45,7 @@
     text-align: center;
     border-radius: 8px;
     width: 322px;
+    box-shadow: 0px 0px 8px 0px #0000001c;
 }
 
 
@@ -203,4 +204,48 @@ header nav .menu-items a{
     position: relative;
     top: 5px;
     margin-right: 6px;
+}
+
+.early-access-container{
+    max-width: 1600px;
+    padding: 2px 120px 120px;
+    background-color: #FFFFFF;
+
+}
+
+.early-access-container .early-access{
+    padding: 80px 40px;
+    text-align: center;
+}
+
+.early-access .early-access-info h2{
+    color:#001931;
+    font-size: 40px;
+}
+
+.early-access .early-access-info p{
+    font-size: 16px;
+    color: #627382;
+    line-height: 24px;
+    margin: 16px 0px 24px;
+    font-weight: 400px;
+}
+
+.early-button-and-anouther-info p{
+    margin-top: 16px;
+}
+
+.early-button-and-anouther-info .anouther-info{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.early-button-and-anouther-info .paragraph-circle{
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: #627382;
+    margin-top: 22px;
+
 }
